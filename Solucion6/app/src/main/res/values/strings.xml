@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Solucion6</string>
+    <string name="rojo">Rojo</string>
+    <string name="verde">Verde</string>
+    <string name="azul">azul</string>
+    <string name="amarillo">amarillo</string>
+    <string name="negro">negro</string>
+    <string name="guardar">guardar</string>
+    <string name="deshacer">deshacer</string>
+    <string name="rehacer">rehacer</string>
+</resources>
