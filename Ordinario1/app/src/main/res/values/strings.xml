@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ordinario1</string>
+        <string name="input_first_number">Input first number</string>
+        <string name="second_number">Input second number</string>
+        <string name="calculate">Calculate</string>
+    <string name="value_of_the_letter_t">Value of the letter \'T\'</string>
+    <string name="value_of_the_letter_x">Value of the letter \'X\'</string>
+    <string name="other">Other</string>
+    <string name="other_operation">Other Operation</string>
+    <string name="_2t_5x_2t_5x">(2t+5x)(2t-5x)</string>
+    <string name="other_operation_s">Other Operation</string>
+    <string name="value_of_the_letter_b">Value of the letter B</string>
+    <string name="value_of_the_letter_a">Value of the letter A</string>
+    <string-array name="operations">
+            <item>(2t+5x)(2t-5x)</item>
+        </string-array>
+
+
+    </resources>
+
+
