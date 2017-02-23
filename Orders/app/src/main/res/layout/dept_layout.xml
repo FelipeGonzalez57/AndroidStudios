@@ -24,7 +24,7 @@
             android:id="@+id/tv_dept_name"
             android:layout_toRightOf="@id/iv_dept"
             android:textSize="15pt"
-            android:text="Dpt name"
+            android:text="@string/dpt_name"
             />
 
         <ImageButton
@@ -41,7 +41,7 @@
             android:id="@+id/tv_dept_from_data"
             android:layout_toRightOf="@id/iv_dept"
             android:layout_below="@+id/tv_dept_name"
-            android:text="Dept from data"
+            android:text="@string/dept_from_data"
             android:textSize="10pt"
 
             />
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tv_dept_to_data"
             android:layout_below="@+id/tv_dept_name"
-            android:text="Dept ToData"
+            android:text="@string/dept_todata"
             android:textSize="10pt"
             android:layout_marginLeft="20dp"
             android:layout_toStartOf="@id/bt_edit_dept"

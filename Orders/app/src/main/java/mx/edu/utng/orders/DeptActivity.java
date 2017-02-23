@@ -113,8 +113,6 @@ public class DeptActivity extends AppCompatActivity {
                              etToDate.getText().toString());
                     operations.insertDeptManager(deptManager);
                 }
-                // Log.d("Products","Products");
-                // DatabaseUtils.dumpCursor(operations.getProducts());
                 clearData();
                 getDeptMangers();
                 adapter.notifyDataSetChanged();

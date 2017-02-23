@@ -7,7 +7,7 @@ import android.os.Build;
 import android.provider.BaseColumns;
 
 /**
- * Created by tacho on 7/02/17.
+ * Created by PandithaGD on 7/02/17.
  */
 
 public class OrderDB extends SQLiteOpenHelper {

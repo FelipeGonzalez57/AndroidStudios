@@ -8,4 +8,7 @@
     <string name="type_from_date">Type from date</string>
     <string name="type_to_date">Type to date</string>
     <string name="save_dept">Save dept</string>
+    <string name="dept_from_data">Dept from data</string>
+    <string name="dpt_name">Dpt name</string>
+    <string name="dept_todata">Dept ToData</string>
 </resources>
