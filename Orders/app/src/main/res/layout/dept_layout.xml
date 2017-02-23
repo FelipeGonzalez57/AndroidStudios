@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv_dept_manager">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/iv_dept"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"/>
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_dept_name"
+            android:layout_toRightOf="@id/iv_dept"
+            android:textSize="15pt"
+            android:text="Dpt name"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_delete_dept"
+            android:layout_below="@+id/bt_edit_dept"
+            android:layout_toRightOf="@+id/tv_dept_to_data"
+            android:src="@android:drawable/ic_menu_delete"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_dept_from_data"
+            android:layout_toRightOf="@id/iv_dept"
+            android:layout_below="@+id/tv_dept_name"
+            android:text="Dept from data"
+            android:textSize="10pt"
+
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_dept_to_data"
+            android:layout_below="@+id/tv_dept_name"
+            android:text="Dept ToData"
+            android:textSize="10pt"
+            android:layout_marginLeft="20dp"
+            android:layout_toStartOf="@id/bt_edit_dept"
+            android:layout_toLeftOf="@id/bt_edit_dept" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_edit_dept"
+            android:src="@android:drawable/ic_menu_edit"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_dept_name"
+            android:layout_toEndOf="@+id/tv_dept_name" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
