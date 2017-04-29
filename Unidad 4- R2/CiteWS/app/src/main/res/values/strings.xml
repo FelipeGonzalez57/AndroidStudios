@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CiteWS</string>
+    <string name="save">save</string>
+    <string name="list">list</string>
+    <string name="usuario">usuario</string>
+    <string name="room">room</string>
+    <string name="recuperrence">recuperrence</string>
+    <string name="subject">subject</string>
+    <string name="inicio">inicio</string>
+    <string name="recurrencerule">recurrenceRule</string>
+    <string name="anotation">anotation</string>
+    <string name="description">description</string>
+    <string name="finall">final</string>
+    <string name="modificar">modificar</string>
+    <string name="eliminar">eliminar</string>
+    <string name="regresar">regresar</string>
+</resources>

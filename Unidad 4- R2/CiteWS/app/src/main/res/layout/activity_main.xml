@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/color1"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        android:layout_weight="0.94">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <!--  Folio -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/usuario"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:id="@+id/textView" />
+
+            <EditText
+                android:id="@+id/tv_usuario"
+                android:inputType="text"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:background="@color/color3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--  Periodo -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/room"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/tv_room"
+                android:inputType="text"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:background="@color/color3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--  Pagado-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/recuperrence"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_recuperrence"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+            <!--  Autorizo-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/subject"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_subject"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+            <!--  Fecha pago -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/inicio"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_inicio"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+            <!--  Fecha Solicitud -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/finall"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_final"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+            <!--  Persona Autorizo -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/recurrencerule"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_recurrence_rule"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+            <!--  Persona Anotation -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/anotation"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/tv_anotation"
+                android:inputType="text"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:background="@color/color3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--  Persona Description -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/tv_description"
+                android:inputType="text"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:background="@color/color3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--  Persona remider -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="remider"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/tv_remider"
+                android:inputType="text"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:background="@color/color3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:id="@+id/btn_save"
+            android:background="@color/color2"
+            />
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/list"
+            android:id="@+id/btn_list"
+            android:background="@color/color2"
+            />
+    </LinearLayout>
+</LinearLayout>
