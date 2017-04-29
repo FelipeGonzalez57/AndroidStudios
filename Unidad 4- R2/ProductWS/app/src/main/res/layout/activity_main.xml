@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/color1"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        android:layout_weight="0.94">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <!--  Folio -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="product_name"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:id="@+id/textView" />
+
+            <EditText
+                android:id="@+id/tv_product_name"
+                android:inputType="text"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:background="@color/color3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--  Periodo -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/supplierid"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/tv_supplier_id"
+                android:inputType="text"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:background="@color/color3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--  Pagado-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/categoryId"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_category_id"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+            <!--  Autorizo-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/quantityperunit"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_quantity_per_unit"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+            <!--  Fecha pago -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/UnitPrice"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_unit_price"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+            <!--  Fecha Solicitud -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unitinstock"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_unit_in_stock"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+            <!--  Persona Autorizo -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unitsonorder"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_unit_on_order"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+            <!-- ReorderLevel-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reorderlevel"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/tv_reorder_level"
+                android:inputType="text"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:background="@color/color3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!-- Discontinued  -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Discontinued"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/tv_discontinued"
+                android:inputType="text"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:background="@color/color3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:id="@+id/btn_save"
+            android:background="@color/color2"
+            />
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/list"
+            android:id="@+id/btn_list"
+            android:background="@color/color2"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProductWS</string>
+    <string name="regresar">regresar</string>
+    <string name="modificar">modificar</string>
+    <string name="eliminar">eliminar</string>
+    <string name="supplierid">supplierId</string>
+    <string name="categoryId">categoryId</string>
+    <string name="quantityperunit">quantityPerUnit</string>
+    <string name="UnitPrice">UnitPrice</string>
+    <string name="unitinstock">UnitInStock</string>
+    <string name="unitsonorder">UnitsOnOrder</string>
+    <string name="reorderlevel">ReorderLevel</string>
+    <string name="save">save</string>
+    <string name="list">list</string>
+</resources>
