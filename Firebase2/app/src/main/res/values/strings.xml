@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="prefs_file">mx.edu.utng.firebase.PREFERENCE_FILE_KEY</string>
+</resources>
